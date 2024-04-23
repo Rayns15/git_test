@@ -4,7 +4,7 @@ pipeline {
         CI = 'true'
     }
     stages {
-        stage('Build') {
+        stage('Prebuild') {
             steps {
                 sh './test.sh'
             }
